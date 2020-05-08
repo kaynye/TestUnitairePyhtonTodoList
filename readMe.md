@@ -10,7 +10,7 @@ Mettre en place la base de données
 dans TodoList/setting.py
 configurer votre base de donnée 
 
-```
+```python
 DATABASES = {
     'default': {
         'OPTIONS' : {
@@ -24,7 +24,7 @@ DATABASES = {
         'PORT': '5432',
     },
 }
-```python
+```
 
 creer ensuite les tables de l'appliction
     python manage.py migrate # les migrations ont deja été appliquées dans le projet
