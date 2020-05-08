@@ -1,7 +1,7 @@
-#TODO List Test Unitaire
+# TODO List Test Unitaire
 
 
-#Instalation
+# Instalation
 Pour lancer le projet
 Installer le 'environnement django et les modules neccessaire
     pyhton install -r requirement.txt
@@ -26,7 +26,7 @@ DATABASES = {
 }
 ```
 
-creer ensuite les tables de l'appliction
+Creer ensuite les tables de l'appliction
     python manage.py migrate # les migrations ont deja été appliquées dans le projet
 
 lancer les tests du projet:
