@@ -12,8 +12,7 @@ test:
   - export DATABASE_URL=postgres://postgres:@password:5432/TestUnit
   - apt-get update -qy
   - apt-get install -y python-dev python-pip
-  - python -c "import django; print(django.get_version())"
-  - python -m pip install --upgrade pip
+  - pip install django
   - pip install -r requirements.txt
   - python manage.py test
 
