@@ -10,8 +10,8 @@ test:
   script:
   # this configures Django application to use attached postgres database that is run on `postgres` host
   - export DATABASE_URL=postgres://postgres:@password:5432/TestUnit
-  # - apt-get update -qy
-  # - apt-get install -y python-dev python-pip
+  - apt-get update -qy
+  - apt-get install -y python-dev python-pip
   - pip install -r requirements.txt
   - python manage.py test
 
